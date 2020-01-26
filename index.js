@@ -7,5 +7,5 @@ bot.on('ready',()=>{
     console.log('Bot is online!')
 })
 
-bot.login(token);
+bot.login(process.env.token);
 
