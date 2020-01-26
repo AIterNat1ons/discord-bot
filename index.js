@@ -21,9 +21,9 @@ break;
             break;
         case 'info':
             if (args[1] === 'more'){
-                msg.channel.sendMessage('Testing for this bot @Reverse bot')
+                msg.channel.sendMessage('Testing for this bot <@!670685827155623937>')
             }else{
-                msg.channel.sendMessage('Thats not a command!')
+                msg.channel.sendMessage('This is a server for testing')
             }
             break;
                 
