@@ -35,7 +35,7 @@ break;
         case 'avatar':
                 msg.reply (msg.author.avatar);
             break;
-            case 'rip'
+        case 'rip':
             msg.channel.sendMessage(attachment);
             break;
                 
