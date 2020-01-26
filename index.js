@@ -8,19 +8,19 @@ bot.on('ready',()=>{
 })
 
 bot.on('message', msg=>{
-    if(msg.content === "Hello", "hello"){
+    if(msg.content === "Hello"){
     msg.reply('Hello there');
     }
 })
 
 bot.on('message', msg=>{
-    if(msg.content === "your gay", "Your gay"){
+    if(msg.content === "your gay"){
     msg.reply('shut up your gay too');
     }
 })
 
 bot.on('message', msg=>{
-    if(msg.content === "your lesbian", "Your lesbian"){
+    if(msg.content === "your lesbian"){
     msg.reply('shut up your lesbian too');
     }
 })
