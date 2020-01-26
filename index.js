@@ -32,7 +32,11 @@ break;
                 msg.channel.bulkDelete(args[1] + 1);
             break;
         case 'avatar':
-            msg.reply(msg.author.avatarURL);
+            if (args[1]){
+            msg.reply (message.args[1].avatarURL);
+            }else{
+                msg.reply (message.author.avatarURL):
+            }
             break;
                 
     }
