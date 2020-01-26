@@ -35,7 +35,7 @@ break;
             if (args[1]){
             msg.reply (message.args[1].avatarURL);
             }else{
-                msg.reply (message.author.avatarURL):
+                msg.reply (message.author.avatarURL);
             }
             break;
                 
