@@ -33,7 +33,7 @@ break;
                 msg.channel.bulkDelete(args[1] + 1);
             break;
         case 'avatar':
-                msg.reply (msg.author.avatar);
+                msg.reply (msg.author.avatarURL);
             break;
         case 'rip':
             const attachment =('https://i.imgur.com/w3duR07.png');
