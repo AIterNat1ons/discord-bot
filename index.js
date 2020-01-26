@@ -32,8 +32,8 @@ break;
                 msg.channel.bulkDelete(args[1] + 1);
             break;
         case 'avatar':
-            if (args[1]){
-            msg.reply (msg.[args[1]].avatarURL);
+            if (!args[1]){
+            msg.reply (msg.args[1].avatarURL);
             }else{
                 msg.reply (msg.author.avatarURL);
             }
