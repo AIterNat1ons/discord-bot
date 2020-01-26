@@ -11,7 +11,7 @@ bot.on('message', msg=>{
     if(msg.content === "Hello"){
     msg.reply('Hello there');
     }
-    )}
+})
 
 bot.login(process.env.token);
 
