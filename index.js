@@ -29,7 +29,7 @@ break;
         case 'clear':
             if (!args[1]) return msg.reply('Error there needs to be a second arg')
             msg.channel.sendMessage('Deleting ' + args[1] + ' messages')
-                msg.channel.bulkDelete(args[1]);
+                msg.channel.bulkDelete(args[1] + 1);
             break;
                 
     }
