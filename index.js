@@ -19,6 +19,17 @@ break;
         case 'dyia':
             msg.channel.sendMessage('SUB TO DYIA UWU https://www.youtube.com/channel/UCNsnKHkl29xDLuMVxZyyG_A')
             break;
+        case 'info':
+            msg.channel.sendMessage('This a server for testing')
+            break;
+        case 'info':
+            if (args[1] === 'more'){
+                msg.channel.sendMessage('Testing for this bot @Reverse bot')
+            }else{
+                message.channel.sendMessage('Thats not a command!')
+            }
+            break;
+                
     }
 })
 
