@@ -32,12 +32,11 @@ break;
                 msg.channel.bulkDelete(args[1] + 1);
             break;
         case 'avatar':
-            if (args[1]){
-            msg.reply (msg.args[1].avatar);
-            }else{
                 msg.reply (msg.author.avatar);
-            }
             break;
+            case 'rip'
+            const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
+            message.channel.send(attachment);
                 
     }
 })
