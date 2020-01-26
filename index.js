@@ -3,7 +3,6 @@ const bot = new Discord.Client();
 
 const token = 'NjcwNjg1ODI3MTU1NjIzOTM3.Xix_qA.1OIvwCn9RKQmg_V18vcr8R2GkUI';
 const PREFIX = 'r.';
-const attachment = ('https://i.imgur.com/w3duR07.png');
 
 
 bot.on('ready',()=>{
@@ -37,6 +36,7 @@ break;
                 msg.reply (msg.author.avatar);
             break;
         case 'rip':
+            const attachment = new Attachment ('https://i.imgur.com/w3duR07.png');
             msg.channel.sendMessage(attachment);
             break;
                 
