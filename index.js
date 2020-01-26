@@ -13,5 +13,11 @@ bot.on('message', msg=>{
     }
 })
 
+bot.on('message', msg=>{
+    if(msg.content === "your gay"){
+    msg.reply('shut up your gay too');
+    }
+})
+
 bot.login(process.env.token);
 
