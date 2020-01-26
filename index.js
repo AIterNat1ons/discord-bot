@@ -14,8 +14,11 @@ bot.on('message', msg=>{
 
     switch(args[0]){
 case 'ping':
-msg.reply ('pong!');
+msg.channel.sengmsg ('pong!');
 break;
+        case 'dyia':
+            msg.channel.sengmsg('SUB TO DYIA UWU https://www.youtube.com/channel/UCNsnKHkl29xDLuMVxZyyG_A')
+            break;
     }
 })
 
