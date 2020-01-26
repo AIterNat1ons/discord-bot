@@ -26,6 +26,10 @@ break;
                 msg.channel.sendMessage('This is a server for testing')
             }
             break;
+        case 'clear':
+            if (!args[1]) return msg.reply('Error there needs to be a second arg')
+                msg.channel.bulkDelete(args[1]);
+            break;
                 
     }
 })
