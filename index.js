@@ -7,5 +7,11 @@ bot.on('ready',()=>{
     console.log('Bot is online!')
 })
 
+bot.on('message', msg=>{
+    if(msg.content === "Hello"){
+    msg.reply('Hello there');
+    }
+    )}
+
 bot.login(process.env.token);
 
