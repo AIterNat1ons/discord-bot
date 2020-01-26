@@ -31,6 +31,9 @@ break;
             msg.channel.sendMessage('Deleting ' + args[1] + ' messages')
                 msg.channel.bulkDelete(args[1] + 1);
             break;
+        case 'avatar':
+            msg.reply(msg.author.avatarURL);
+            break;
                 
     }
 })
