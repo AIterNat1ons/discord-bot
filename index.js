@@ -36,8 +36,8 @@ break;
                 msg.reply (msg.author.avatarURL);
             break;
         case 'rip':
-            const attachment = new attachment ('https://i.imgur.com/w3duR07.png');
-            msg.channel.sendMessage(attachment);
+            const gay = new attachment ('https://i.imgur.com/w3duR07.png');
+            msg.channel.sendMessage(gay);
             break;
                 
     }
