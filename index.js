@@ -30,14 +30,14 @@ break;
         case 'clear':
             if (!args[1]) return msg.reply('Error there needs to be a second arg')
             msg.channel.sendMessage('Deleting ' + args[1] + ' messages')
-                msg.channel.bulkDelete(args[1] + 1);
+                msg.channel.bulkDelete(args[1]);
             break;
         case 'avatar':
                 msg.reply (msg.author.avatarURL);
             break;
         case 'rip':
             const gay = new Attachment('https://i.imgur.com/w3duR07.png'); 
-            msg.channel.sendMessage(gay);
+            msg.channel.send(gay);
             break;
                 
     }
