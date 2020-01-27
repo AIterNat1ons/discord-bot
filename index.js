@@ -34,8 +34,7 @@ break;
                 msg.channel.bulkDelete(args[1]);
             break;
         case 'avatar':
-                Const attach = new Attachment(msg.author.avatarURL);
-msg.channel.send(attach);
+                msg.channel.send(msg.author.avatarURL);
             break;
         case 'rip':
             const gay = new Attachment('https://i.imgur.com/w3duR07.png'); 
