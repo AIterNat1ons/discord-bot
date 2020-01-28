@@ -40,6 +40,11 @@ break;
             const gay = new Attachment('https://i.imgur.com/w3duR07.png'); 
             msg.channel.send(gay);
             break;
+        case 'cat':
+            const hi = new Attachment('https://m.imgur.com/gallery/BLIrtep')
+            msg.channel.send(hi);
+            break;
+
                 
     }
 })
