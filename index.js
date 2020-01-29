@@ -41,7 +41,7 @@ break;
             msg.channel.send(gay);
             break;
         case 'cat':
-            const hi = new Attachment('https://media.discordapp.net/attachments/670686954198794262/671813675291639834/image0.gif')
+            const hi = new Attachment('https://i.imgur.com/FGraXIS_d.jpg?maxwidth=640&shape=thumb&fidelity=medium')
             msg.channel.send(hi);
             break;
 
