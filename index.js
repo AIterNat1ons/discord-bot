@@ -41,7 +41,7 @@ break;
             msg.channel.send(gay);
             break;
         case 'cat':
-            const hi = new Attachment('https://i.imgur.com/DFZTnHZ.gifv')
+            const hi = new Attachment('https://i.imgur.com/DFZTnHZ.gif')
             msg.channel.send(hi);
             break;
 
