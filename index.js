@@ -41,7 +41,7 @@ break;
             msg.channel.send(gay);
             break;
         case 'cat':
-            const hi = new Attachment('https://i.imgur.com/FGraXIS_d.jpg')
+            const hi = new Attachment('https://giphy.com/gifs/computer-cat-wearing-glasses')
             msg.channel.send(hi);
             break;
 
