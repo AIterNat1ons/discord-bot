@@ -2,13 +2,20 @@ const { Client, Attachment } = require('discord.js');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'NjcwNjg1ODI3MTU1NjIzOTM3.Xix_qA.1OIvwCn9RKQmg_V18vcr8R2GkUI';
+const token = 'NjcwNTk1MjUxNzYwNzkxNTUz.XjWYcQ.XgGssJrQl6W-7tYAOCRWRpuJiEk';
 const PREFIX = 'r.';
 
 
 bot.on('ready',()=>{
     console.log('Bot is online!')
-})
+});
+
+bot.on('guildMemberAdd', member =>{
+ const channel = member.guild.channels.find(ch => ch.name === 'general');
+ if (!channel) return;
+ channel.send(`Welcome, ${member} to the server!`);
+
+});
 
 bot.on('message', msg=>{
 
@@ -51,5 +58,3 @@ break;
 
 
 bot.login(process.env.token);
-
-
