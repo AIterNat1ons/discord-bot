@@ -2,7 +2,7 @@ const { Client, Attachment } = require('discord.js');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'NjcwNTk1MjUxNzYwNzkxNTUz.XjWYcQ.XgGssJrQl6W-7tYAOCRWRpuJiEk';
+const token = 'NjcwNTk1MjUxNzYwNzkxNTUz.XjWcyA.lJrXdZmbkNETtRD2029bY0E1P44';
 const PREFIX = 'r.';
 
 
@@ -16,6 +16,13 @@ bot.on('guildMemberAdd', member =>{
  channel.send(`Welcome, ${member} to the server!`);
 
 });
+
+bot.on('guildMemberRemove', member =>{
+  const channel = member.guild.channels.find(ch => ch.name === 'general');
+  if (!channel) return;
+  channel.send(`Bye, ${member}, it's sad for you to leave!`);
+ 
+ });
 
 bot.on('message', msg=>{
 
