@@ -30,7 +30,7 @@ bot.on('message', msg=>{
 
     switch(args[0]){
 case 'ping':
-msg.channel.sendMessage ('pong!');
+essage.channel.send(new Date().getTime() - message.createdTimestamp + " ms");
 break;
         case 'dyia':
             msg.channel.sendMessage('SUB TO DYIA UWU https://www.youtube.com/channel/UCNsnKHkl29xDLuMVxZyyG_A')
